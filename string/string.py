@@ -18,3 +18,19 @@ if book in text:
     print("check string......, it is present")
 if book not in text:
     print("check string......, it is not present")
+    
+# =============Modify String========
+print(a.upper())
+print(a.lower())
+print(a.strip())
+
+# ========== String Concatenation==========
+name = "Smiling"
+age = "21"
+result = f"{name} is {age} years old."
+print(result)
+
+# =======join()=========
+fruit_list = ["apple", "orange", "lemon"]
+cc = "-".join(fruit_list)
+print(cc)
